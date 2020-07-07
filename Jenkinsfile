@@ -1,3 +1,4 @@
+ tool name: 'maven', type: 'maven'
 node{
     stage('SCM checkout'){
         git 'https://github.com/mallikdevops/my-app'
